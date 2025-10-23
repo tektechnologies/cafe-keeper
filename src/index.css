@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Motter Tektura";
+  src: url("/fonts/motter-tektura.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -31,6 +39,7 @@ body {
 }
 
 h1 {
+  font-family: "Motter Tektura", system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-size: 3.2em;
   line-height: 1.1;
 }
