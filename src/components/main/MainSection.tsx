@@ -5,10 +5,9 @@ const Main: React.FC = () => {
     <>
       <section className="hero">
         <div className="hero-content">
-          <h1>Smart Control. Seamless Operations.</h1>
+          <h2>Smart Controls. Seamless Operations.</h2>
           <p>
-            Advanced sensor networks and data analytics for IoT management.
-            Monitor, optimize, and scale with confidence.
+            Keep track of your checklists, recipes and more.
           </p>
           <a href="#" className="cta-button">
             Find Out More
@@ -17,13 +16,13 @@ const Main: React.FC = () => {
       </section>
 
       <section className="features">
-        <h2 className="section-title">Enterprise IoT Solutions</h2>
+        <h2 className="section-title">Small to Medium Size Business Solutions</h2>
         <div className="feature-grid">
           <div className="feature-card">
             <div className="feature-icon">📊</div>
             <h3>Real-Time Monitoring</h3>
             <p>
-              Track environmental conditions, access levels, and video views.
+              Track conditions, access levels, and task lists.
               metrics 24/7 with our distributed sensor network.
             </p>
           </div>

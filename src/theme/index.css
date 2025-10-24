@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Motter Tektura";
+  src: url("/fonts/motter-tektura.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,27 +13,40 @@
 }
 
 :root {
-  --sage-green: #84a98c;
-  --sage-muted: #6b7280;
-  --warm-gray: #57534e;
-  --warm-gray-alt: #78716c;
-  --accent-green: #bef264;
-  --cream: #fafaf9;
+  --coral-orange: #dd6e42;
+  --warm-beige: #e8dab2;
+  --slate-teal: #4f6d7a;
+  --powder-blue: #c0d6df;
+  --soft-gray: #eaeaea;
   --white: #ffffff;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, sans-serif;
-  background-color: var(--cream);
-  color: var(--warm-gray);
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, sans-serif;
+  background-color: var(--soft-gray);
+  color: var(--slate-teal);
   line-height: 1.6;
 }
+
+/* h1 {
+  font-family:
+    "Motter Tektura",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    sans-serif;
+} */
 
 /* Header */
 header {
   background-color: var(--white);
-  padding: 1.5rem 0;
+  padding: 1rem 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   position: sticky;
   top: 0;
@@ -42,14 +63,16 @@ nav {
 }
 
 .logo {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: var(--sage-green);
+  font-weight: 500;
+  color: var(--coral-orange);
+ 
 }
 
 .logo a {
-  color: var(--sage-green) !important;
+  color: var(--coral-orange) !important;
   text-decoration: none !important;
+  font-size: 3rem;
+  font-family: "Motter Tektura", sans-serif;
 }
 
 .play-regular {
@@ -72,21 +95,21 @@ nav {
 
 .nav-links a {
   text-decoration: none;
-  color: var(--warm-gray);
+  color: var(--slate-teal);
   font-weight: 500;
   transition: color 0.3s;
 }
 
 .nav-links a:hover {
-  color: var(--sage-green);
+  color: var(--coral-orange);
 }
 
 /* Hero Section */
 .hero {
   background: linear-gradient(
     135deg,
-    var(--sage-green) 0%,
-    var(--sage-muted) 100%
+    var(--coral-orange) 0%,
+    var(--slate-teal) 100%
   );
   color: var(--white);
   padding: 6rem 2rem;
@@ -98,7 +121,16 @@ nav {
   margin: 0 auto;
 }
 
-.hero h1 {
+.hero h2 {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    sans-serif;
   font-size: 3rem;
   margin-bottom: 1.5rem;
   font-weight: 700;
@@ -112,19 +144,21 @@ nav {
 
 .cta-button {
   display: inline-block;
-  background-color: var(--accent-green);
-  color: var(--warm-gray);
+  background-color: var(--warm-beige);
+  color: var(--slate-teal);
   padding: 1rem 2.5rem;
   text-decoration: none;
   border-radius: 6px;
   font-weight: 600;
-  transition: transform 0.2s, box-shadow 0.2s;
-  box-shadow: 0 4px 12px rgba(190, 242, 100, 0.3);
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+  box-shadow: 0 4px 12px rgba(232, 218, 178, 0.3);
 }
 
 .cta-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(190, 242, 100, 0.4);
+  box-shadow: 0 6px 16px rgba(232, 218, 178, 0.4);
 }
 
 /* Features Section */
@@ -137,7 +171,7 @@ nav {
 .section-title {
   text-align: center;
   font-size: 2.5rem;
-  color: var(--sage-green);
+  color: var(--coral-orange);
   margin-bottom: 3rem;
 }
 
@@ -152,7 +186,9 @@ nav {
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
 }
 
 .feature-card:hover {
@@ -163,7 +199,7 @@ nav {
 .feature-icon {
   width: 60px;
   height: 60px;
-  background-color: var(--sage-green);
+  background-color: var(--coral-orange);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -173,14 +209,14 @@ nav {
 }
 
 .feature-card h3 {
-  color: var(--sage-green);
+  color: var(--coral-orange);
   margin-bottom: 1rem;
   font-size: 1.5rem;
 }
 
 /* Stats Section */
 .stats {
-  background-color: var(--warm-gray);
+  background-color: var(--slate-teal);
   color: var(--white);
   padding: 4rem 2rem;
   margin: 4rem 0;
@@ -197,7 +233,7 @@ nav {
 
 .stat-item h4 {
   font-size: 3rem;
-  color: var(--accent-green);
+  color: var(--warm-beige);
   margin-bottom: 0.5rem;
 }
 
@@ -216,19 +252,19 @@ nav {
 
 .cta-section h2 {
   font-size: 2.5rem;
-  color: var(--sage-green);
+  color: var(--coral-orange);
   margin-bottom: 1.5rem;
 }
 
 .cta-section p {
   font-size: 1.25rem;
   margin-bottom: 2rem;
-  color: var(--warm-gray-alt);
+  color: var(--slate-teal);
 }
 
 /* Footer */
 footer {
-  background-color: var(--warm-gray);
+  background-color: var(--slate-teal);
   color: var(--white);
   padding: 3rem 2rem 1.5rem;
   margin-top: 4rem;
@@ -245,7 +281,7 @@ footer {
 }
 
 .footer-section h4 {
-  color: var(--accent-green);
+  color: var(--warm-beige);
   margin-bottom: 1rem;
 }
 
@@ -269,32 +305,6 @@ footer {
   padding-top: 2rem;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   opacity: 0.7;
-}
-
-/* Marquee Styles */
-.marquee {
-  overflow: hidden;
-  white-space: nowrap;
-  background-color: var(--warm-gray);
-  padding: 1rem 0;
-  margin-top: 2rem;
-}
-
-.marquee-content {
-  display: inline-block;
-  animation: marquee 100s linear infinite;
-  color: var(--accent-green);
-  font-weight: 600;
-  font-size: 1.1rem;
-}
-
-@keyframes marquee {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
 }
 
 @media (max-width: 768px) {
