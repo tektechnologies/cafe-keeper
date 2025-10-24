@@ -11,6 +11,7 @@
     "route-gen": "tsr generate"
   },
   "dependencies": {
+    "@phosphor-icons/react": "^2.1.10",
     "@tanstack/react-router": "^1.133.25",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",

@@ -1,4 +1,5 @@
 import React from "react";
+import { CoffeeBeanIcon } from "@phosphor-icons/react";
 
 const Main: React.FC = () => {
   return (
@@ -6,9 +7,7 @@ const Main: React.FC = () => {
       <section className="hero">
         <div className="hero-content">
           <h2>Smart Controls. Seamless Operations.</h2>
-          <p>
-            Keep track of your checklists, recipes and more.
-          </p>
+          <p>Store Recipes, Manage Opening and Closing Checklists, and more.</p>
           <a href="#" className="cta-button">
             Find Out More
           </a>
@@ -16,25 +15,36 @@ const Main: React.FC = () => {
       </section>
 
       <section className="features">
-        <h2 className="section-title">Small to Medium Size Business Solutions</h2>
+        <h2 className="section-title">
+          Small to Medium Size Business Solutions
+        </h2>
         <div className="feature-grid">
           <div className="feature-card">
-            <div className="feature-icon">📊</div>
+            <div className="feature-icon">
+              <CoffeeBeanIcon size={32} />
+            </div>
             <h3>Real-Time Monitoring</h3>
             <p>
-              Track conditions, access levels, and task lists.
-              metrics 24/7 with our distributed sensor network.
+              Track conditions, access levels, and task lists. metrics 24/7 with
+              our distributed sensor network.
             </p>
           </div>
           <div className="feature-card">
-            <div className="feature-icon">🔬</div>
+            <div className="feature-icon">
+              {" "}
+              <CoffeeBeanIcon size={32} />
+            </div>
             <h3>Compliance Ready</h3>
             <p>
-              Automated tracking and reporting for regulatory requirements. Full audit trails and traceability.
+              Automated tracking and reporting for regulatory requirements. Full
+              audit trails and traceability.
             </p>
           </div>
           <div className="feature-card">
-            <div className="feature-icon">⚡</div>
+            <div className="feature-icon">
+              {" "}
+              <CoffeeBeanIcon size={32} />
+            </div>
             <h3>Predictive Analytics</h3>
             <p>
               Machine learning models identify issues before they impact yield.
@@ -68,7 +78,8 @@ const Main: React.FC = () => {
       <section className="cta-section">
         <h2>Ready to Optimize Your Operation?</h2>
         <p>
-          Join leading companies using IoT technology to maximize quality and efficiency.
+          Join leading companies using IoT technology to maximize quality and
+          efficiency.
         </p>
         <a href="#" className="cta-button">
           Schedule Consultation

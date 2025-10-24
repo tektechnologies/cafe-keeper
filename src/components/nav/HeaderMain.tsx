@@ -12,10 +12,10 @@ const Header: React.FC = () => {
         </div>
         <ul className="nav-links">
           <li>
-            <a href="#solutions">Solutions</a>
+            <a href="/solutions">Solutions</a>
           </li>
           <li>
-            <a href="#technology">Pricing</a>
+            <a href="/pricing">Pricing</a>
           </li>
           <li>
             <Link to="/about" className="[&.active]:font-bold">
@@ -23,7 +23,7 @@ const Header: React.FC = () => {
             </Link>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="/contact">Contact</a>
           </li>
         </ul>
       </nav>
