@@ -1,16 +1,16 @@
-
-import './App.css'
+import "./theme/index.css";
+import Header from "./components/nav/HeaderMain.tsx";
+import Main from "./components/main/MainSection.tsx";
+import Footer from "./components/footer/FooterMain.tsx";
 
 function App() {
-  
-
   return (
     <>
-    
-      <h1>Cafe Keeper</h1>
-      
+      <Header />
+      <Main />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
