@@ -1,17 +1,11 @@
-import { createFileRoute, Outlet } from "@tanstack/react-router";
-import Header from "../components/nav/HeaderMain.tsx";
-import Footer from "../components/footer/FooterMain.tsx";
+import { createRootRoute, Outlet } from "@tanstack/react-router";
+// import { TanStackRouterDevtools } from "@tanstack/router-devtools";
 
-export const Route = createFileRoute("/")({
-  component: RootComponent,
-});
-
-function RootComponent() {
-  return (
+export const Route = createRootRoute({
+  component: () => (
     <>
-      <Header />
       <Outlet />
-      <Footer />
+      {/* <TanStackRouterDevtools /> */}
     </>
-  );
-}
+  ),
+});

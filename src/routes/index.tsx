@@ -1,6 +1,14 @@
 import { createFileRoute } from "@tanstack/react-router";
-import Main from "../components/main/MainSection.tsx";
+import Header from "../components/nav/HeaderMain";
+import Main from "../components/main/MainSection";
+import Footer from "../components/footer/FooterMain";
 
 export const Route = createFileRoute("/")({
-  component: Main,
+  component: () => (
+    <>
+      <Header />
+      <Main />
+      <Footer />
+    </>
+  ),
 });
