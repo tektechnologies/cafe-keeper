@@ -106,11 +106,11 @@ nav {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(
+  /* background: linear-gradient(
     135deg,
     var(--coral-orange) 0%,
     var(--slate-teal) 100%
-  );
+  ); */
   color: var(--white);
   padding: 6rem 2rem;
   text-align: center;

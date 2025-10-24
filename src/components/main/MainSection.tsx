@@ -1,10 +1,20 @@
 import React from "react";
 import { CoffeeBeanIcon } from "@phosphor-icons/react";
+import bannerImage from "../../assets/images/banner-image-1.png";
 
 const Main: React.FC = () => {
   return (
     <>
-      <section className="hero">
+     <section 
+        className="hero"
+        style={{
+          backgroundImage: `url(${bannerImage})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
+     
         <div className="hero-content">
           <h2>Smart Controls. Seamless Operations.</h2>
           <p>Store Recipes, Manage Opening and Closing Checklists, and more.</p>
@@ -12,6 +22,7 @@ const Main: React.FC = () => {
             Find Out More
           </a>
         </div>
+     
       </section>
 
       <section className="features">
