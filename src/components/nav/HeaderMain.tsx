@@ -7,7 +7,7 @@ const Header: React.FC = () => {
       <nav>
         <div className="logo">
           <Link to="/" className="play-regular">
-         CafeKeeper 
+         Cafe Keeper 
           </Link>
         </div>
         <ul className="nav-links">

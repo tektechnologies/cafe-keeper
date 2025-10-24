@@ -3,6 +3,7 @@ import Header from "../components/nav/HeaderMain";
 import Main from "../components/main/MainSection";
 import Footer from "../components/footer/FooterMain";
 
+
 export const Route = createFileRoute("/")({
   component: () => (
     <>
