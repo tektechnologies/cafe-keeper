@@ -7,7 +7,7 @@ const Header: React.FC = () => {
       <nav>
         <div className="logo">
           <Link to="/" className="play-regular">
-            TEK Technologies
+         CafeKeeper 
           </Link>
         </div>
         <ul className="nav-links">
@@ -15,7 +15,7 @@ const Header: React.FC = () => {
             <a href="#solutions">Solutions</a>
           </li>
           <li>
-            <a href="#technology">Technology</a>
+            <a href="#technology">Pricing</a>
           </li>
           <li>
             <Link to="/about" className="[&.active]:font-bold">
