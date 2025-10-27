@@ -14,7 +14,7 @@
 - **Ingredient quantities:** Portions per drink/plate.
 - **Menu versions:** Seasonal updates, special promotions.
 
-## 3. Inventory & Supply Management
+## 3. Vendor & Supply Management
 
 - **Stock levels:** Coffee beans, milk, syrups, cups, lids, napkins.
 - **Suppliers:** Contact info, lead times, costs.

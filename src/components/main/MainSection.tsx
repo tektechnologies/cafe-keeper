@@ -1,29 +1,41 @@
 import React from "react";
 import { CoffeeBeanIcon } from "@phosphor-icons/react";
+import bannerImage from "../../assets/images/banner-image-1.png";
 
 const Main: React.FC = () => {
   return (
     <>
-      <section className="hero">
+     <section 
+        className="hero"
+        style={{
+          backgroundImage: `url(${bannerImage})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
+     
         <div className="hero-content">
+          {/* <h2>Smart Controls. Seamless Operations.</h2> */}
           <h2>Smart Controls. Seamless Operations.</h2>
-          <p>Store Recipes, Manage Opening and Closing Checklists, and more.</p>
+           {/* <p>Store Recipes, Manage Opening and Closing Checklists, and more.</p> */}
           <a href="#" className="cta-button">
             Find Out More
           </a>
         </div>
+     
       </section>
 
       <section className="features">
         <h2 className="section-title">
-          Small to Medium Size Business Solutions
+        Business Solutions for Growing Companies
         </h2>
         <div className="feature-grid">
           <div className="feature-card">
             <div className="feature-icon">
               <CoffeeBeanIcon size={32} />
             </div>
-            <h3>Real-Time Monitoring</h3>
+            <h3>Recipes & Menu</h3>
             <p>
               Track conditions, access levels, and task lists. metrics 24/7 with
               our distributed sensor network.
@@ -34,7 +46,7 @@ const Main: React.FC = () => {
               {" "}
               <CoffeeBeanIcon size={32} />
             </div>
-            <h3>Compliance Ready</h3>
+            <h3>Equipment & Maintenance</h3>
             <p>
               Automated tracking and reporting for regulatory requirements. Full
               audit trails and traceability.
@@ -45,10 +57,41 @@ const Main: React.FC = () => {
               {" "}
               <CoffeeBeanIcon size={32} />
             </div>
-            <h3>Predictive Analytics</h3>
+            <h3>Compliance & Safety</h3>
             <p>
               Machine learning models identify issues before they impact yield.
               Optimize building cycles and resource allocation.
+            </p>
+          </div>
+
+          <div className="feature-card">
+            <div className="feature-icon">
+              <CoffeeBeanIcon size={32} />
+            </div>
+            <h3>Shift & Staff Management</h3>
+            <p>
+              Track conditions, access levels, and task lists. metrics 24/7 with
+              our distributed sensor network.
+            </p>
+          </div>
+          <div className="feature-card">
+            <div className="feature-icon">
+              <CoffeeBeanIcon size={32} />
+            </div>
+            <h3>Vendor & Supply Management</h3>
+            <p>
+              Track conditions, access levels, and task lists. metrics 24/7 with
+              our distributed sensor network.
+            </p>
+          </div>
+          <div className="feature-card">
+            <div className="feature-icon">
+              <CoffeeBeanIcon size={32} />
+            </div>
+            <h3>Customer Engagement</h3>
+            <p>
+              Track conditions, access levels, and task lists. metrics 24/7 with
+              our distributed sensor network.
             </p>
           </div>
         </div>
