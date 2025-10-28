@@ -100,20 +100,20 @@ const Main: React.FC = () => {
       <section className="stats">
         <div className="stats-container">
           <div className="stat-item">
-            <h4>32%</h4>
-            <p>Average Cost Decreases</p>
+            <h4>+32%</h4>
+            <p>Operational Efficiency</p>
           </div>
           <div className="stat-item">
             <h4>99.9%</h4>
-            <p>System Uptime</p>
+            <p>Staff Training Completion</p>
           </div>
           <div className="stat-item">
             <h4>2+</h4>
-            <p>Licensed Facilitators</p>
+            <p>Advanced Training Programs</p>
           </div>
           <div className="stat-item">
             <h4>24/7</h4>
-            <p>Support Coverage</p>
+            <p>Fresh Coffee Available</p>
           </div>
         </div>
       </section>
