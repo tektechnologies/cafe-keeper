@@ -57,7 +57,7 @@ const Main: React.FC = () => {
               {" "}
               <CoffeeBeanIcon size={32} />
             </div>
-            <h3>Compliance & Safety</h3>
+            <h3>Team Messaging</h3>
             <p>
               Machine learning models identify issues before they impact yield.
               Optimize building cycles and resource allocation.
@@ -88,7 +88,7 @@ const Main: React.FC = () => {
             <div className="feature-icon">
               <CoffeeBeanIcon size={32} />
             </div>
-            <h3>Customer Engagement</h3>
+            <h3>Barista and Roaster Training</h3>
             <p>
               Track conditions, access levels, and task lists. metrics 24/7 with
               our distributed sensor network.
