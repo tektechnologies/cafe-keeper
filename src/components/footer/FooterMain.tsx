@@ -6,50 +6,65 @@ const Footer: React.FC = () => {
     <footer>
       <div className="footer-content">
         <div className="footer-section">
-          <h4>Products</h4>
+          <h4>Products / Features</h4>
           <ul>
             <li>
-              <a href="#">Video Systems</a>
+              <a href="#">Features Overview</a>
             </li>
             <li>
-              <a href="#">Internet of Things Devices</a>
+              <a href="#">Pricing / Plans</a>
             </li>
             <li>
-              <a href="#">Internet Services in select markets</a>
+              <a href="#">Demo / Free Trial</a>
             </li>
           </ul>
         </div>
         <div className="footer-section">
-          <h4>Resources</h4>
+          <h4>Resources / Learn</h4>
           <ul>
             <li>
               <a href="#">Documentation</a>
             </li>
             <li>
-              <a href="#">Case Studies</a>
+              <a href="#">Data Entry Service</a>
             </li>
             <li>
-              <a href="#">White Papers</a>
+              <a href="#">Case Studies / Success Stories</a>
             </li>
           </ul>
         </div>
         <div className="footer-section">
+          <h4>Legal / Policies</h4>
+          <ul>
+            <li>
+              <a href="#">Terms of Service</a>
+            </li>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#">Security / Compliance</a>
+            </li>
+          </ul>
+        </div>
+
+        <div className="footer-section">
           <h4>Company</h4>
           <ul>
             <li>
-              <a href="#">About Us</a>
+              <a href="#">Support / Contact</a>
             </li>
             <li>
-              <a href="#">Careers</a>
+              <a href="#">Community</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#">Newsletter / Updates</a>
             </li>
           </ul>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2025 TEK Technologies IoT. All rights reserved.</p>
+        <p>&copy; 2025 TEKTechnologies. All rights reserved.</p>
       </div>
     </footer>
     </>

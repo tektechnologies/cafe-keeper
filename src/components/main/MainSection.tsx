@@ -37,8 +37,7 @@ const Main: React.FC = () => {
             </div>
             <h3>Recipes & Menu</h3>
             <p>
-              Track conditions, access levels, and task lists. metrics 24/7 with
-              our distributed sensor network.
+            Simplify menu and recipe management—store recipes, track ingredients, and share updates with your team to keep every cup and dish consistent and high-quality.
             </p>
           </div>
           <div className="feature-card">
@@ -48,8 +47,7 @@ const Main: React.FC = () => {
             </div>
             <h3>Equipment & Maintenance</h3>
             <p>
-              Automated tracking and reporting for regulatory requirements. Full
-              audit trails and traceability.
+            Manage and maintain all your equipment with ease—track purchases, maintenance, images, and ownership history, all in one organized platform.
             </p>
           </div>
           <div className="feature-card">
@@ -57,10 +55,9 @@ const Main: React.FC = () => {
               {" "}
               <CoffeeBeanIcon size={32} />
             </div>
-            <h3>Compliance & Safety</h3>
+            <h3>Team Messaging</h3>
             <p>
-              Machine learning models identify issues before they impact yield.
-              Optimize building cycles and resource allocation.
+            A simple team chat for scheduling and updates—send messages, request shift coverage, and get notifications in real time.
             </p>
           </div>
 
@@ -70,8 +67,7 @@ const Main: React.FC = () => {
             </div>
             <h3>Shift & Staff Management</h3>
             <p>
-              Track conditions, access levels, and task lists. metrics 24/7 with
-              our distributed sensor network.
+            Manage staff details and track shift activities, notes, and instructions—all in one easy-to-use system.
             </p>
           </div>
           <div className="feature-card">
@@ -80,18 +76,16 @@ const Main: React.FC = () => {
             </div>
             <h3>Vendor & Supply Management</h3>
             <p>
-              Track conditions, access levels, and task lists. metrics 24/7 with
-              our distributed sensor network.
+            Track vendors, orders, and supplies all in one place to keep your operations running smoothly.
             </p>
           </div>
           <div className="feature-card">
             <div className="feature-icon">
               <CoffeeBeanIcon size={32} />
             </div>
-            <h3>Customer Engagement</h3>
+            <h3>Barista and Roaster Training</h3>
             <p>
-              Track conditions, access levels, and task lists. metrics 24/7 with
-              our distributed sensor network.
+            Train your baristas and roasters with interactive lessons and quizzes, reinforcing key skills and company standards while tracking staff progress.
             </p>
           </div>
         </div>
@@ -100,20 +94,20 @@ const Main: React.FC = () => {
       <section className="stats">
         <div className="stats-container">
           <div className="stat-item">
-            <h4>32%</h4>
-            <p>Average Cost Decreases</p>
+            <h4>+32%</h4>
+            <p>Operational Efficiency</p>
           </div>
           <div className="stat-item">
             <h4>99.9%</h4>
-            <p>System Uptime</p>
+            <p>Staff Training Completion</p>
           </div>
           <div className="stat-item">
             <h4>2+</h4>
-            <p>Licensed Facilitators</p>
+            <p>Advanced Training Programs</p>
           </div>
           <div className="stat-item">
             <h4>24/7</h4>
-            <p>Support Coverage</p>
+            <p>Fresh Coffee Available</p>
           </div>
         </div>
       </section>
@@ -121,8 +115,7 @@ const Main: React.FC = () => {
       <section className="cta-section">
         <h2>Ready to Optimize Your Operation?</h2>
         <p>
-          Join leading companies using IoT technology to maximize quality and
-          efficiency.
+        Designed for busy cafés, this app streamlines daily operations by organizing shift tasks, recipe management, staff training, and inventory tracking, helping teams run efficiently and consistently.
         </p>
         <a href="#" className="cta-button">
           Schedule Consultation
