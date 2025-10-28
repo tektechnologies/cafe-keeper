@@ -37,8 +37,7 @@ const Main: React.FC = () => {
             </div>
             <h3>Recipes & Menu</h3>
             <p>
-              Track conditions, access levels, and task lists. metrics 24/7 with
-              our distributed sensor network.
+            Simplify menu and recipe management—store recipes, track ingredients, and share updates with your team to keep every cup and dish consistent and high-quality.
             </p>
           </div>
           <div className="feature-card">
@@ -48,8 +47,7 @@ const Main: React.FC = () => {
             </div>
             <h3>Equipment & Maintenance</h3>
             <p>
-              Automated tracking and reporting for regulatory requirements. Full
-              audit trails and traceability.
+            Manage and maintain all your equipment with ease—track purchases, maintenance, images, and ownership history, all in one organized platform.
             </p>
           </div>
           <div className="feature-card">
@@ -59,8 +57,7 @@ const Main: React.FC = () => {
             </div>
             <h3>Team Messaging</h3>
             <p>
-              Machine learning models identify issues before they impact yield.
-              Optimize building cycles and resource allocation.
+            A simple team chat for scheduling and updates—send messages, request shift coverage, and get notifications in real time.
             </p>
           </div>
 
@@ -70,8 +67,7 @@ const Main: React.FC = () => {
             </div>
             <h3>Shift & Staff Management</h3>
             <p>
-              Track conditions, access levels, and task lists. metrics 24/7 with
-              our distributed sensor network.
+            Manage staff details and track shift activities, notes, and instructions—all in one easy-to-use system.
             </p>
           </div>
           <div className="feature-card">
@@ -80,8 +76,7 @@ const Main: React.FC = () => {
             </div>
             <h3>Vendor & Supply Management</h3>
             <p>
-              Track conditions, access levels, and task lists. metrics 24/7 with
-              our distributed sensor network.
+            Track vendors, orders, and supplies all in one place to keep your operations running smoothly.
             </p>
           </div>
           <div className="feature-card">
@@ -90,8 +85,7 @@ const Main: React.FC = () => {
             </div>
             <h3>Barista and Roaster Training</h3>
             <p>
-              Track conditions, access levels, and task lists. metrics 24/7 with
-              our distributed sensor network.
+            Train your baristas and roasters with interactive lessons and quizzes, reinforcing key skills and company standards while tracking staff progress.
             </p>
           </div>
         </div>
