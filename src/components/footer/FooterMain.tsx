@@ -6,21 +6,21 @@ const Footer: React.FC = () => {
     <footer>
       <div className="footer-content">
         <div className="footer-section">
-          <h4>Products</h4>
+          <h4>Products/Features</h4>
           <ul>
             <li>
-              <a href="#">Video Systems</a>
+              <a href="#">Features Overview</a>
             </li>
             <li>
-              <a href="#">Internet of Things Devices</a>
+              <a href="#">Pricing / Plans</a>
             </li>
             <li>
-              <a href="#">Internet Services in select markets</a>
+              <a href="#">Demo / Free Trial</a>
             </li>
           </ul>
         </div>
         <div className="footer-section">
-          <h4>Resources</h4>
+          <h4>Resources / Learn</h4>
           <ul>
             <li>
               <a href="#">Documentation</a>
@@ -34,16 +34,31 @@ const Footer: React.FC = () => {
           </ul>
         </div>
         <div className="footer-section">
+          <h4>Legal / Policies</h4>
+          <ul>
+            <li>
+              <a href="#">Terms of Service</a>
+            </li>
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#">Security / Compliance</a>
+            </li>
+          </ul>
+        </div>
+
+        <div className="footer-section">
           <h4>Company</h4>
           <ul>
             <li>
-              <a href="#">About Us</a>
+              <a href="#">Support / Contact</a>
             </li>
             <li>
-              <a href="#">Careers</a>
+              <a href="#">Community</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#">Newsletter / Updates</a>
             </li>
           </ul>
         </div>

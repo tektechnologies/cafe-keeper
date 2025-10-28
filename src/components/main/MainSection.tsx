@@ -121,8 +121,7 @@ const Main: React.FC = () => {
       <section className="cta-section">
         <h2>Ready to Optimize Your Operation?</h2>
         <p>
-          Join leading companies using IoT technology to maximize quality and
-          efficiency.
+        Designed for busy cafés, this app streamlines daily operations by organizing shift tasks, recipe management, staff training, and inventory tracking, helping teams run efficiently and consistently.
         </p>
         <a href="#" className="cta-button">
           Schedule Consultation
